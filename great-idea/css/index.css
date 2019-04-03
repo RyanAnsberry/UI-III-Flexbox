@@ -68,7 +68,7 @@ body {
 	width: 876px;
 	margin: 0 auto;
 }
-
+/* Header/Nav */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -90,6 +90,7 @@ a:hover {
 	color:#000;
 }
 
+/* top banner */
 .banner {
 	display: flex;
 	justify-content: space-evenly;
@@ -106,10 +107,6 @@ a:hover {
 
 }
 
-h2 {
-	font-size: 150%;
-}
-
 .getStarted h1 {
 	font-size: 550%;
 	text-align: center;
@@ -122,6 +119,15 @@ h2 {
 	background: white;
 	font-weight: bold;
 	border-radius: 43x;
+}
+
+.getStarted button:hover {
+	background: lightblue;
+	color: whitesmoke;
+}
+/* content section */
+h2 {
+	font-size: 150%;
 }
 
 .upperContent {
@@ -141,6 +147,8 @@ h2 {
 .Services, .Product, .Vision {
 	width: 275px;
 }
+
+/* Contact/Footer */
 
 .Contact {
 	display:flex;
